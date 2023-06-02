@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!---------------------head starts----------------------->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.serendicola.com/contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<!------------------------body starts-------------------------->
+<body>
+    <div class="logo">
+        <font face="Edwardian Script ITC" size="4">THE</font>&nbsp;SerendiCola&nbsp;<font face="Edwardian Script ITC" size="4">COMPANY</font>
+    </div><br><br><br><br>
+               <div class="nav">
+                   <div class="pill-nav">
+                     <a href="index.html">Who We Are</a>
+                     <a href="our-brands.html">Our Brands</a>
+                     <a href="sustainability">Sustainability</a>
+                     <a class= "active" href="contact.html">Contact</a>
+                     <a href="news.html">News</a>
+                     <a href="investors.html">Investors</a>
+                   </div>
+               </div>
+<form name="form"  method="post">
+            <div class="contact-us">
+                <center><h3>CONTACT US</h3>
+                <span>DO NOT HESITATE TO CONTACT US</span><br><br>
+                <label id="name">Name:-</label><input type="text" placeholder="Kalum Ranwala" name="fname" required><br><br>                 
+                <label>E-Mail:-</label><input type="email" placeholder="kalumranwala@gmail.com" required><br><br> 
+                <label>Phone:-</label><input type="tel" placeholder="+9481910408" required><br><br>  
+                <label id="bdate">Birth&nbsp;Date:-</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" placeholder="1994/5/19" name="birthdate" required><br><br>
+                <label>Gender:-</label><label>Male:</label><input type="radio" id="male" name="gender"><label>Female:</label><input type="radio" id="female" name="gender"><br><br>
+                <label>Message:-</label><br><br><textarea id="textarea1" rows="5" cols="53" placeholder="I'd very much like to investing on your company,and i'm interested aboun new products. This company was Amazing."></textarea><br><br>
+                <input type="reset" class="reset">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="submit" class="submit" onsubmit="return validform()">
+                </center>
+          </div>
+</form>        
+         <script>
+            function validateForm(){
+                let x = document.forms["form"] ["fname"].value;
+                
+                if (x == ""){
+                    alert("Name Cannot be Empty");
+                    return false;
+                }
+                let age = document.getElementById("bdate").value;
+                if (isNaN(age) || age < 0 || age > 50){
+                    text = "Age is nnot valid";
+                    document.getElementById("age").innerHTML=text;
+                    return false;
+                }
+            }
+         </script>      
+</body>
+</html>
