@@ -1,2 +1,3 @@
 # Serendicola
-Ordinary Web Site
+
+A smaller web site, still upgrading, doing for hobby.. :)
