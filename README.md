@@ -1,2 +1,2 @@
-# Serendizcola
+# Serendicola
 Extra Ordinary Web Project
