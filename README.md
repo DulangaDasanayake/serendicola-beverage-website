@@ -1,2 +1,2 @@
 # Serendicola
-Extra Ordinary Web Project
+Ordinary Web Site
