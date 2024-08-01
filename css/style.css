@@ -1,0 +1,403 @@
+*{
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    padding: 10px;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    padding: 25px;
+    background-color: #11a9d8;
+    color: black;
+  }
+
+/* Navigation bar */
+.nav{
+    height: 100%;
+    width: 85%;
+    align-items: center;
+    padding: 30px 20px;
+    background: rgba(154, 192, 207, 0.932);
+    text-align: center;
+    border-radius: 75px;
+}
+
+/*logo*/
+.logo{
+    font-family: "Edwardian Script ITC";
+    align-items: center;
+    text-align: center;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 15px;
+}
+
+/*Style the links inside the pill navigation menu*/
+.pill-nav a{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 50px;
+}
+
+/*Change the color of links on mouse-over*/
+.pill-nav a:hover{
+    background-color: rgb(255, 255, 255);
+    color:black;
+}
+
+/*Add a color to the active/current link*/
+.pill-nav a.active{
+    background-color: rgb(30, 52, 75);
+    color: white;
+}
+
+/*-------------------------------------------------index page---------------------------------------------*/
+.main-container1{
+    position: relative;
+    margin: 30px;
+}
+
+.main-quote1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the text */
+  text-align: center;
+  color: white; /* Text color */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 30px;
+  max-width: 100%; /* Limit the width */
+}
+
+/*main image 1*/
+.main-img1{
+    border: 5px inset rgb(32, 32, 31);
+    max-width: 1024px;
+    width: 1000px;
+    height: 550px;
+    position: float;
+    opacity: 0.8;
+}
+
+/*----------------------three images---------------------*/
+
+.img6{
+    border: 4px solid rgb(206, 29, 6);
+    border-radius: 8px;
+    position: absolute;
+    top: 860px;
+    left: 130px;
+}
+.img7{
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    position: absolute;
+    top: 860px;
+    left: 480px;
+}
+.img8{
+    border: 4px solid rgb(11, 202, 37);
+    border-radius: 8px;
+    position: absolute;
+    top: 860px;
+    right: 130px;
+}
+
+.marq1{
+    position: absolute;
+    top:820px;
+}
+
+.marq2{
+    position: absolute;
+    top: 1290px;
+}
+/*----------------------------------------------------------*/
+.main-container2{
+    position: absolute;
+    top: 1300px;
+    margin: 30px;
+}
+
+/*main quote*/
+.main-quote2{
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+/*main image 1*/
+.main-img2{
+    border: 5px inset yellowgreen;
+    border-radius: 8px;
+    max-width: 1024px;
+    width: 1000px;
+    height: 550px;
+    position: float;
+    top: auto;
+    opacity: 0.6;
+}
+
+.img9{
+    border: 4px solid rgb(11, 202, 37);
+    border-radius: 8px;
+    position: absolute;
+    top: 1950px;
+    left: 300px;
+}
+
+.img10{
+    border: 4px solid rgb(212, 7, 7);
+    border-radius: 8px;
+    position: absolute;
+    top: 1950px;
+    right: 300px;
+}
+
+.marq3{
+    position: absolute;
+    top:1905px;
+}
+
+.marq4{
+    position: absolute;
+    top:2380px;
+}
+
+/*--------------------------------------------------index css dead end--------------------------------------------*/
+
+/*-------------------------------------------------our brands---------------------------------------------------*/
+
+/*text header*/
+.txt_header{
+    font-size: 23px;
+    color: rgb(228, 160, 34);
+}
+
+/*text body*/
+.txt_body{
+    font-size: 20px;
+}
+
+/*left side first text design*/
+.txtright{
+    background-color: rgb(13, 126, 116);
+    text-align: left;
+    box-shadow: 5px 5px 7px rgb(255, 255, 255);
+    width: 400px;
+    height: 370px;
+    padding: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    position: absolute;
+    top: 350px;
+    right: 120px;
+}
+
+/*left side text design*/
+.txtleft{
+    background-color: rgb(4, 94, 179);
+    text-align: right;
+    box-shadow: 5px 5px 7px rgb(255, 255, 255);
+    width: 400px;
+    height: 370px;
+    padding: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    position: absolute;
+    top: 830px;
+    left: 120px;
+}
+
+/*right side second text design*/
+.txtright2{
+    background-color: rgb(34, 119, 98);
+    text-align: left;
+    box-shadow: 5px 5px 7px rgb(255, 255, 255);
+    width: 400px;
+    height: 370px;
+    padding: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    position: absolute;
+    top: 1310px;
+    right: 120px;
+}
+
+/*the image with first text*/
+.img1{
+    border: 3px dashed rgb(255, 255, 255);
+    border-radius: 7px;
+    padding: 0;
+    position: absolute;
+    top: 350px;
+    left: 120px;
+}
+
+/*second row image*/
+.img2{
+    border: 3px dashed rgb(255, 255, 255);
+    border-radius: 7px;
+    padding: 0;
+    position: absolute;
+    top: 830px;
+    right: 120px;
+}
+
+/*third row image*/
+.img3{
+    border: 3px dashed rgb(255, 255, 255);
+    border-radius: 7px;
+    padding: 0;
+    position: absolute;
+    top: 1310px;
+    left: 120px;
+}
+
+/*button*/
+.button{
+    background-color: bisque;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.8s;
+    cursor: pointer;
+}
+
+/*read more button*/
+.button1 {
+    background-color: rgba(29, 78, 143, 0.979);
+    color: white;
+    border: 1px dotted white;
+    position: absolute;
+    top: 730px;
+    right: 370px;
+    border-radius: 7px;
+    box-shadow: 0;
+ }
+
+ /*button hover*/
+ .button1:hover{
+    background-color: rgb(11, 141, 192);
+ }
+
+/*read more button*/
+.button2 {
+    background-color: rgb(20, 119, 86);
+    color: white;
+    border: 1px dotted white;
+    position: absolute;
+    top: 1210px;
+    left: 370px;
+    border-radius: 7px;
+    box-shadow: 0;
+ }
+
+ /*button hover*/
+ .button2:hover{
+    background-color: #2fb990;
+ }
+
+/*read more button*/
+.button3 {
+    background-color: rgb(31, 107, 151);
+    color: white;
+    border: 1px dotted white;
+    position: absolute;
+    top: 1695px;
+    right: 370px;
+    border-radius: 7px;
+    box-shadow: 0;
+ }
+
+ /*button hover*/
+ .button3:hover{
+    background-color: #33b2d1;
+ }
+
+/*---------------------------------------------------our brands style end----------------------------------------------------*/
+
+ /*Contact Us*/
+ .contact-us{
+    background-color: rgb(38, 120, 175);
+    align-items: center;
+    position: absolute;
+    left: 33.33%;
+    top: 240px;
+    width: 420px;
+    border: 4px outset rgb(18, 72, 143);
+    border-radius: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #000;
+    padding: 10px;
+ }
+
+ label{
+    width: 100px;
+    display: inline-block;
+    color: yellowgreen;
+ }
+
+ .submit{
+    background: #46af2c;
+    color: rgb(0, 0, 0);
+    border-style: outset;
+    height: 30px;
+    width: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .reset{
+    background: #af2c2c;
+    color: rgb(0, 0, 0);
+    border-style: outset;
+    height: 30px;
+    width: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ /*----------------------------------------footer styles---------------------------------------*/
+ 
+ .footerhead{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+ .footer {
+	padding: 30px 20px;
+	width: 85%;
+	background-color: rgba(154, 179, 207, 0.932);
+	margin: 5px;
+    color: #266ecc;
+    font-weight: 200;
+	text-align: center;
+}
+
+.footnote > p{
+	color: rgb(138, 66, 8);
+	display: block;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
